@@ -70,4 +70,4 @@ var eduQualification = () => {
     );
 };
 
-module.exports = eduQualification;
+export default eduQualification;

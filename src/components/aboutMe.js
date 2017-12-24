@@ -33,4 +33,4 @@ var aboutMe = () => {
     );
 };
 
-module.exports = aboutMe;
+export default aboutMe;
