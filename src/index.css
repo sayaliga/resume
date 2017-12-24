@@ -16,6 +16,10 @@ section {
 table.eduqualification td:not(:first-child), table.eduqualification th:not(:first-child) {
   text-align: center;
 }
+table.eduqualification > tbody > tr > th, table.eduqualification > tbody > tr > td {
+  border-top-color: gray;
+  border-bottom-color: gray;
+}
 td {
   border-bottom: 1px solid gray;
 }

@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "http://sayaliga.github.io/react-resume",
   "dependencies": {
+    "bootstrap": "^3.3.7",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.0.17"
