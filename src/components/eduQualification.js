@@ -3,8 +3,10 @@ import React from "react";
 var eduQualification = () => {
     return (
         <div>
-            <h1>Educational Qualification</h1>
-            <div className="well">
+            <header>
+                <h1>Educational Qualification</h1>
+            </header>
+            <section>
                 <table className="eduqualification table table-responsive">
                     <tbody>
                         <tr>
@@ -65,7 +67,7 @@ var eduQualification = () => {
                         </tr>
                     </tbody>
                 </table>
-            </div>
+            </section>
         </div>
     );
 };

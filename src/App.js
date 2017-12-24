@@ -6,7 +6,6 @@ import Skills from './components/skills.js';
 
 class App extends Component {
   render() {
-    console.log('rendering');
     return (
       <div>
         <AboutMe />

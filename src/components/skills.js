@@ -6,7 +6,7 @@ var skills = () => {
             <header>
                 <h1>How well I know what</h1>
             </header>
-            <section className="well">
+            <section>
                 <ul>
                     <li><b> HTML</b> -</li>
                     <li><b> CSS, LESS</b> -</li>
