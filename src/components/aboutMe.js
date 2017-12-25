@@ -8,7 +8,14 @@ var aboutMe = () => {
             </header>
             <section>
                 <p className="inroduction">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <p>
+                        Hi There!
+                    </p>
+                    <p>
+                        I am Sayali, a front end developer from Pune, India.
+                        I have enjoyed working in this field for 2.5 years now
+                        and I continue to enjoy learning new things in this ever changing dynamic field.
+                    </p>
                 </p>
                 <ul>
                     <li>
