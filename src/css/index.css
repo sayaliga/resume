@@ -12,6 +12,9 @@ h1 {
 }
 section {
   padding: 10px;
+  font-size: 16px;
+  height: 100%;
+  width: 100%;
 }
 table.eduqualification td:not(:first-child), table.eduqualification th:not(:first-child) {
   text-align: center;

@@ -1,0 +1,32 @@
+.navbar .container-fluid {
+    background-color: #52658f;
+    padding-top: 10px;
+}
+.navbar a {
+    transition: background-color 2s, font-size 1s;
+    transition-duration: 1s;
+    color: #E8E8E8;
+    font-size: 20px;
+    font-weight: bold;
+}
+li {
+    transition: background-color 0s, font-size 1s;
+    transition-duration: 1s;
+}
+.navbar .container-fluid a:hover, li.active a {
+    font-size: 30px;
+    background-color: transparent;
+    color: #E8E8E8;
+}
+.section-container {
+    padding: 100px;
+}
+section {
+    padding: 20px;
+}
+footer .navbar  .container-fluid {
+    background-color: #E8E8E8;
+}
+footer .navbar li a {
+    color: #52658f;
+}
