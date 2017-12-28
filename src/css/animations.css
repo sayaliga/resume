@@ -1,0 +1,23 @@
+@keyframes grow {
+    0% { font-size: 0; }
+    100% { font-size: 16px; }
+}
+table.eduqualification {
+    animation-name: grow;
+    animation-duration: 3s;
+}
+.introduction {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%; 
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
