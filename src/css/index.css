@@ -26,3 +26,11 @@ table.eduqualification > tbody > tr > th, table.eduqualification > tbody > tr > 
 td {
   border-bottom: 1px solid gray;
 }
+text {
+  font-size: 16px;
+  font-weight: bold;
+}
+svg {
+  margin-left: 20%;
+  margin-top: 10%;
+}

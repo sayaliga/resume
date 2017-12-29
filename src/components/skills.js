@@ -1,20 +1,26 @@
 import React from "react";
+import ReactDOM from 'react-dom';
+import { BarChart } from 'react-easy-chart';
+
+let data  = [
+ { x: 'HTML', y: 9},
+ { x:'CSS', y: 9},
+ { x:'JavaScript', y: 8},
+ { x:'jQuery', y: 6},
+ { x:'Bootstrap', y: 8},
+ { x:'Node.js', y: 8},
+ { x:'React.js', y: 8.5},
+ { x:'Redux', y: 8},
+];
 
 var skills = () => {
     return (
-        <section id="skills">
-            <ul>
-                <li><b> HTML</b> -</li>
-                <li><b> CSS, LESS</b> -</li>
-                <li><b> JavaScript</b> -</li>
-                <li><b> jQuery</b> -</li>
-                <li><b> Bootstrap</b> -</li>
-                <li><b> Node.js</b> -</li>
-                <li><b> React.js</b> -</li>
-                <li><b>C, C++</b> -</li>
-            </ul>
-        </section>
+        <BarChart axes colorBars
+        height={300}
+        width={650}
+        data={data}/>
     );
 };
+
 
 export default skills;
