@@ -6,6 +6,7 @@ const style = {
     height: '100px'
 };
 const imageurl = `${process.env.PUBLIC_URL}/images/logo`;
+
 const projects = () => {
     return (
         <div className="container-fluid well">
