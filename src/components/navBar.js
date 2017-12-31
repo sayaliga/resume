@@ -4,6 +4,7 @@ import AboutMe from './aboutMe';
 import EduQualification from './eduQualification.js';
 import Experience from './experience.js';
 import Skills from './skills.js';
+import Projects from './projects.js';
 
 var navBar = () => {
     return (
@@ -12,10 +13,13 @@ var navBar = () => {
                 <li><Link to="/">About Me</Link></li>
                 <li className="eduqualification"><Link to="/eduqualification">Education</Link></li>
                 <li><Link to="/skills">Skills</Link></li>
+                <li><Link to="/projects">Projects</Link></li>
             </ul>
+            <div className="clear"></div>
                 <Route exact path="/" component={AboutMe} />
                 <Route exact path="/eduqualification" component={EduQualification} />
                 <Route exact path="/skills" component={Skills} />
+                <Route exact path="/projects" component={Projects} />
         </div>
     )
 }

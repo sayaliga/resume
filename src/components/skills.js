@@ -17,7 +17,9 @@ var skills = () => {
     return (
         <BarChart axes colorBars
         height={300}
-        width={650}
+        width={800}
+        grid
+        yDomainRange={[0, 10]}
         data={data}/>
     );
 };

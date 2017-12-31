@@ -34,3 +34,6 @@ svg {
   margin-left: 20%;
   margin-top: 10%;
 }
+.clear {
+  clear: both;
+}
