@@ -1,12 +1,25 @@
 import React from "react";
 import ReactDOM from 'react-dom';
 
-const getUrl = 'https://raw.githubusercontent.com/sayaliga/react-resume/master/public/projectdetails.json';
-
-const projectDetails = ({match}) => {
-    return(
-        <div>{match.params.name}</div>
-    )
+class ProjectDetails extends React.Component {
+    render() {
+        return(
+            <div className="row">
+                <div className="col-sm-5">
+                    <img src={this.props.imageUrl} />
+                </div>
+                <div className="col-sm-7">
+                    <ul>
+                        {
+                            this.props.description.map((value, index) =>
+                                <li key={index}>{value}</li>
+                            )
+                        }
+                    </ul>
+                </div>
+            </div>
+        )
+    }
 };
 
-export default projectDetails;
+export default ProjectDetails;
