@@ -1,0 +1,16 @@
+.projectDescription {
+    padding-top: 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.thumbnail-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+.projectThumbnail {
+    width: 150px;
+    height: 150px;
+}
+.projectDescription ul {
+    -webkit-padding-start: 0px;
+}

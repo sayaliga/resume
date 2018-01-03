@@ -8,19 +8,28 @@ let data  = [
  { x:'JavaScript', y: 8},
  { x:'jQuery', y: 6},
  { x:'Bootstrap', y: 8},
- { x:'Node.js', y: 8},
- { x:'React.js', y: 8.5},
- { x:'Redux', y: 8},
+ { x:'Node.js', y: 7.5},
+ { x:'React.js', y: 7},
+ { x:'Redux', y: 7},
 ];
 
 var skills = () => {
     return (
-        <BarChart axes colorBars
-        height={300}
-        width={800}
-        grid
-        yDomainRange={[0, 10]}
-        data={data}/>
+        <section>
+            <div className="skillchart">
+                <div className="skillsguide">
+                   Self-assessment :
+                </div>
+                <BarChart
+                axes
+                width={650}
+                height={400}
+                colorBars
+                grid
+                yDomainRange={[0, 10]}
+                data={data}/>
+            </div>
+        </section>
     );
 };
 

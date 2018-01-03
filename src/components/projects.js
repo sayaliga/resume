@@ -23,14 +23,17 @@ class Projects extends React.Component {
     }
     render() {
         return (
-            <div className="container-fluid">
-                <div className="row well">
-                    { skills.map((skill) =>
-                        <ProjectThumbnail key={skill} skill={skill} displayDetails={this.filterBy.bind(this, skill)}/>
-                    )}
+            <section>
+                <div className="container-fluid">
+                    <div className="thumbnail-container">
+                        { skills.map((skill) =>
+                            <ProjectThumbnail key={skill} skill={skill} displayDetails={this.filterBy.bind(this, skill)}/>
+                        )}
+                    </div>
+                    <hr />
+                    <ProjectDetails skill={this.state.skill} description={this.state.description} />
                 </div>
-                <ProjectDetails skill={this.state.skill} description={this.state.description} />
-            </div>
+            </section>
         );
     }
     filterBy(skill) {

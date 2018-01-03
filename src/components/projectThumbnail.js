@@ -18,9 +18,9 @@ class ProjectThumbnail extends React.Component {
     }
     render() {
         return (
-            <div className="col-sm-2" onClick={this.handleChangeInSkill}>
+            <div className="projectThumbnail" onClick={this.handleChangeInSkill}>
                 <img src={`${imageurl}/${this.props.skill}.svg`} alt={alttext} className="img-responsive thumbnail" style={style}></img>
-                <b>{this.props.skill}</b>
+                <div><b>{this.props.skill}</b></div>
             </div>
         )
     }

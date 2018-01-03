@@ -2,13 +2,15 @@
     0% { font-size: 0; }
     100% { font-size: 16px; }
 }
-table.eduqualification {
-    animation-name: grow;
-    animation-duration: 3s;
-}
-.introduction {
-    animation-duration: 3s;
-    animation-name: slidein;
+@media screen and (min-width: 650px) {
+    table.eduqualification {
+        animation-name: grow;
+        animation-duration: 3s;
+    }
+    .introduction {
+        animation-duration: 3s;
+        animation-name: slidein;
+    }
 }
 @keyframes slidein {
     from {
