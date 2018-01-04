@@ -12,6 +12,7 @@ class Projects extends React.Component {
             description: []
         }
         this.projectdetails = '';
+        this.skill = '';
     }
     componentDidMount() {
         const getUrl = 'https://raw.githubusercontent.com/sayaliga/react-resume/master/public/projectdetails.json';
@@ -22,21 +23,43 @@ class Projects extends React.Component {
             });
     }
     render() {
-        return (
-            <section>
-                <div className="container-fluid">
-                    <div className="thumbnail-container">
-                        { skills.map((skill) =>
-                            <ProjectThumbnail key={skill} skill={skill} displayDetails={this.filterBy.bind(this, skill)}/>
-                        )}
-                    </div>
-                    <hr />
-                    <ProjectDetails skill={this.state.skill} description={this.state.description} />
-                </div>
-            </section>
+        let stateParam = this.state.imageUrl;
+        let thumbnailList = (
+            <div className="thumbnail-container">
+                { skills.map((skill) =>
+                    <ProjectThumbnail key={skill} skill={skill} displayDetails={this.filterBy.bind(this, skill)}/>
+                )}
+            </div>
         );
+        if(stateParam) {
+            return (
+                <section>
+                    <div className="container-fluid">
+                        <div className="projectDetail-cotainer">
+                            <div className="projectThumbnail">
+                                <ProjectThumbnail skill={this.skill} />
+                            </div>
+                            <div className="projectDetails">
+                                <ProjectDetails skill={this.props.skill} description={this.state.description} />
+                            </div>
+                        </div>
+                        <section>
+                            {thumbnailList}
+                        </section>
+                    </div>
+                </section>
+            )
+        }
+        else {
+            return (
+                <section>
+                    {thumbnailList}
+                </section>
+            );
+        }
     }
     filterBy(skill) {
+        this.skill = skill;
         this.setState(this.projectdetails[skill]);
     }
 };

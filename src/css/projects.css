@@ -14,3 +14,10 @@
 .projectDescription ul {
     -webkit-padding-start: 0px;
 }
+.projectDetail-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+.projectDetails {
+    width: 500px;
+}
