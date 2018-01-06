@@ -10,7 +10,7 @@ var navBar = () => {
     return (
         <div className="container-fluid">
             <ul className="nav navbar-nav">
-                <li><Link to="/">About Me</Link></li>
+                <li className="active"><Link to="/">About Me</Link></li>
                 <li className="eduqualification"><Link to="/eduqualification">Education</Link></li>
                 <li><Link to="/skills">Skills</Link></li>
                 <li><Link to="/projects">Projects</Link></li>

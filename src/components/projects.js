@@ -35,17 +35,17 @@ class Projects extends React.Component {
             return (
                 <section>
                     <div className="container-fluid">
-                        <div className="projectDetail-cotainer">
-                            <div className="projectThumbnail">
+                        <div className="projectDetail-cotainer row">
+                            <div className="projectThumbnail col-sm-2">
                                 <ProjectThumbnail skill={this.skill} />
                             </div>
-                            <div className="projectDetails">
+                            <div className="projectDetails col-sm-8">
                                 <ProjectDetails skill={this.props.skill} description={this.state.description} />
                             </div>
                         </div>
-                        <section>
+                        <div className="thumbnailList">
                             {thumbnailList}
-                        </section>
+                        </div>
                     </div>
                 </section>
             )
