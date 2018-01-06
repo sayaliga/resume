@@ -7,14 +7,16 @@ import Skills from './skills.js';
 import Projects from './projects.js';
 import SocialIcons from './socialIcons.js'
 
+let url = process.env.PUBLIC_URL;
+
 var navBar = () => {
     return (
         <div className="container-fluid">
             <ul className="nav navbar-nav">
-                <li className="active"><Link to="/">About Me</Link></li>
-                <li className="eduqualification"><Link to="/eduqualification">Education</Link></li>
-                <li><Link to="/skills">Skills</Link></li>
-                <li><Link to="/projects">Projects</Link></li>
+                <li className="active"><Link to={`${url}/`}>About Me</Link></li>
+                <li className="eduqualification"><Link to={`${url}/eduqualification`}>Education</Link></li>
+                <li><Link to={`${url}/skils`}>Skills</Link></li>
+                <li><Link to={`${url}/projects`}>Projects</Link></li>
                 <ul className="nav pull-right">
                     <li>
                         <SocialIcons />
