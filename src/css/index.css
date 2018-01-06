@@ -43,3 +43,7 @@ text {
 .clear {
   clear: both;
 }
+.socialicons a {
+  font-size: 25px;
+  padding: 10px;
+}

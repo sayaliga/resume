@@ -5,6 +5,7 @@ import EduQualification from './eduQualification.js';
 import Experience from './experience.js';
 import Skills from './skills.js';
 import Projects from './projects.js';
+import SocialIcons from './socialIcons.js'
 
 var navBar = () => {
     return (
@@ -14,6 +15,11 @@ var navBar = () => {
                 <li className="eduqualification"><Link to="/eduqualification">Education</Link></li>
                 <li><Link to="/skills">Skills</Link></li>
                 <li><Link to="/projects">Projects</Link></li>
+                <ul className="nav pull-right">
+                    <li>
+                        <SocialIcons />
+                    </li>
+                </ul>
             </ul>
             <div className="clear"></div>
                 <Route exact path="/" component={AboutMe} />

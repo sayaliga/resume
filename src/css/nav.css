@@ -19,12 +19,6 @@ li {
     background-color: transparent;
     color: #E8E8E8;
 }
-.section-container {
-    padding: 100px;
-}
-footer .container-fluid {
-    background-color: #E8E8E8;
-}
-footer li a {
-    color: #52658f;
+.socialicons {
+    margin-right: 50px;
 }

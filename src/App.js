@@ -5,9 +5,11 @@ import NavBar from './components/navBar.js';
 class App extends Component {
   render() {
     return (
-      <Router>
-        <NavBar />
-      </Router>
+      <div>
+        <Router>
+          <NavBar />
+        </Router>
+      </div>
     );
   }
 }
