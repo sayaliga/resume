@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 
 const alttext = "Click me to get the project details!";
 const style = {

@@ -1,8 +1,7 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { Route, Link } from 'react-router-dom';
 import AboutMe from './aboutMe';
 import EduQualification from './eduQualification.js';
-import Experience from './experience.js';
 import Skills from './skills.js';
 import Projects from './projects.js';
 import SocialIcons from './socialIcons.js';

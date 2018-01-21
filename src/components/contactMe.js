@@ -1,6 +1,16 @@
 import React from "react";
+import jQuery from "jquery";
 
 class Form extends React.Component {
+    sendEmail() {
+        jQuery.ajax({
+            url: "https://formspree.io/sayali.gaikwad1994@gmail.com", 
+            method: "POST",
+            dataType: "json"
+        }).then(()=> {
+            alert('Your message has been sent!');
+        });
+    }
     render() {
         return (
             <section className="contactme">
@@ -10,9 +20,10 @@ class Form extends React.Component {
                     </div>
                     <div className="form-group">
                         <textarea className="form-control" name="message" placeholder="Your message" required></textarea>
+                        <input type="hidden" name="_next" value='' />
                     </div>
                     <div className="form-group">
-                        <button type="submit">
+                        <button onClick={this.sendEmail}>
                             <i className="fa fa-send text-center" aria-hidden="true">&nbsp;&nbsp;Send</i>
                         </button>
                         <button type="reset">
