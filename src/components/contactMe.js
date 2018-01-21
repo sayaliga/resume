@@ -16,11 +16,10 @@ class Form extends React.Component {
             <section className="contactme">
                 <form className="well" action="https://formspree.io/sayali.gaikwad1994@gmail.com" method="POST">
                     <div className="form-group">
-                        <input className="form-control" name="email" type="email" placeholder="Enter email" required></input>
+                        <input className="form-control" name="email" type="email" placeholder="Enter your email" required></input>
                     </div>
                     <div className="form-group">
                         <textarea className="form-control" name="message" placeholder="Your message" required></textarea>
-                        <input type="hidden" name="_next" value='https://raw.githubusercontent.com/sayaliga/react-resume/master/public/thankyou.html' />
                     </div>
                     <div className="form-group">
                         <button onClick={this.sendEmail}>
