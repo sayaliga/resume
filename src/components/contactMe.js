@@ -7,8 +7,6 @@ class Form extends React.Component {
             url: "https://formspree.io/sayali.gaikwad1994@gmail.com", 
             method: "POST",
             dataType: "json"
-        }).then(()=> {
-            alert('Your message has been sent!');
         });
     }
     render() {
@@ -20,6 +18,7 @@ class Form extends React.Component {
                     </div>
                     <div className="form-group">
                         <textarea className="form-control" name="message" placeholder="Your message" required></textarea>
+                        <input type="hidden" type="_next" value="https://sayaliga.github.io/react-resume/thankyou.html"></input>
                     </div>
                     <div className="form-group">
                         <button onClick={this.sendEmail}>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link, BrowserRouter } from 'react-router-dom';
 import AboutMe from './aboutMe';
 import EduQualification from './eduQualification.js';
 import Skills from './skills.js';
@@ -23,11 +23,13 @@ var navBar = () => {
                 </ul>
             </ul>
             <div className="clear"></div>
+            <BrowserRouter>
                 <Route exact path="/" component={AboutMe} />
                 <Route exact path="/eduqualification" component={EduQualification} />
                 <Route exact path="/skills" component={Skills} />
                 <Route exact path="/projects" component={Projects} />
                 <Route exact path="/contactMe" component={ContactMe} />
+            </BrowserRouter>
         </div>
     )
 }
