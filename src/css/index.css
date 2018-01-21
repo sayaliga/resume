@@ -47,3 +47,6 @@ text {
   font-size: 25px;
   padding: 10px;
 }
+.contactme form {
+  width: 500px;
+}
