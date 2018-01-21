@@ -44,11 +44,11 @@ text {
   clear: both;
 }
 .socialicons a {
-  font-size: 25px;
+  font-size: 18px;
   padding: 10px;
 }
 .contactme form {
-  width: 500px;
+  width: 90%;
 }
 .contactme button {
   margin: 10px;
