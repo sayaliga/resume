@@ -12,3 +12,11 @@
         animation-name: grow;
     }
 }
+button {
+    transition: font-size 1s;
+    transition-duration: 1s;
+}
+
+button:hover {
+    font-size: 20px;
+}

@@ -50,3 +50,6 @@ text {
 .contactme form {
   width: 500px;
 }
+.contactme button {
+  margin: 10px;
+}
