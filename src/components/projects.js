@@ -35,7 +35,7 @@ class Projects extends React.Component {
             return (
                 <section>
                     <div className="container-fluid">
-                        <div className="projectDetail-cotainer row">
+                        <div className="projectDetail-cotainer row well">
                             <div className="projectThumbnail col-sm-2">
                                 <ProjectThumbnail skill={this.skill} />
                             </div>
@@ -43,7 +43,7 @@ class Projects extends React.Component {
                                 <ProjectDetails skill={this.props.skill} description={this.state.description} />
                             </div>
                         </div>
-                        <div className="thumbnailList">
+                        <div className="thumbnailList well">
                             {thumbnailList}
                         </div>
                     </div>
@@ -53,7 +53,9 @@ class Projects extends React.Component {
         else {
             return (
                 <section>
-                    {thumbnailList}
+                    <div className="well">
+                        {thumbnailList}
+                    </div>
                 </section>
             );
         }

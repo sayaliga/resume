@@ -15,7 +15,7 @@ let socialIcons = () => {
             </li>
             <li>
                 <a href="#">
-                    <i className="fa fa-linkedin text-center" aria-hidden="true"></i>
+                    <i className="fa fa-google text-center" aria-hidden="true"></i>
                 </a>
             </li>
         </ul>
