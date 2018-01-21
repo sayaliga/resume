@@ -2,7 +2,7 @@ import React from "react";
 import ProjectDetails from "./projectDetails";
 import ProjectThumbnail from "./projectThumbnail";
 
-const skills = ['HTML5','CSS','JavaScript','Perl','Reactjs'];
+const skills = ['HTML5','CSS','JavaScript','Perl','React','Angular'];
 class Projects extends React.Component {
     constructor() {
         super();
