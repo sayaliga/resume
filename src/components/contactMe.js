@@ -24,7 +24,7 @@ class Form extends React.Component {
                             </div>
                             <div className="form-group">
                                 <textarea className="form-control" name="message" placeholder="Your message" required></textarea>
-                                <input type="hidden" name="_next" value="https://sayaliga.github.io/react-resume/thankyou.html"></input>
+                                <input type="hidden" name="_next" value="https://sayaliga.github.io/resume/thankyou.html"></input>
                             </div>
                             <div className="form-group">
                                 <button onClick={this.sendEmail}>
