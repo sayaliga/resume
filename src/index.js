@@ -5,6 +5,7 @@ import './css/index.css';
 import './css/nav.css';
 import './css/animations.css';
 import './css/projects.css';
+import './css/chart.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';

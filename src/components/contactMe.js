@@ -36,7 +36,7 @@ class Form extends React.Component {
                             </div>
                         </form>
                         <p>
-                            Or connect with me on social media - <SocialIcons />
+                            Or connect with me on linked in - <SocialIcons />
                         </p>
                     </div>
                 </div>

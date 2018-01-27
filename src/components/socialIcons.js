@@ -3,14 +3,8 @@ import React from "react";
 let socialIcons = () => {
     return(
         <span className="socialicons">
-                <a href="#">
-                    <i className="fa fa-facebook text-center" aria-hidden="true"></i>
-                </a>
-                <a href="#">
-                    <i className="fa fa-twitter text-center" aria-hidden="true"></i>
-                </a>
-                <a href="#">
-                    <i className="fa fa-google text-center" aria-hidden="true"></i>
+                <a href="https://www.linkedin.com/in/sayali-gaikwad-605b7b102/">
+                    <i className="fa fa-linkedin text-center" aria-hidden="true"></i>
                 </a>
         </span>
     )
