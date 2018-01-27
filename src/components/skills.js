@@ -57,7 +57,7 @@ class skills extends React.Component {
                 }            ​
                 </div>
                 <div className="container">
-                    Besidea these, I'm comfortable with using JS-based build tools like Grunt, Gulp, and Bower.
+                    Besides these, I'm comfortable with using JS-based build tools like Grunt, Gulp, and Bower.
                 </div>
             </section>
         );
