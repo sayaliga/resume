@@ -58,6 +58,8 @@ class skills extends React.Component {
                 </div>
                 <div className="container">
                     Besides these, I'm comfortable with using JS-based build tools like Grunt, Gulp, and Bower.
+                    <br />
+                    I have worked with version control systems like GIT and perforce.
                 </div>
             </section>
         );
