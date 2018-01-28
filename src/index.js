@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import 'font-awesome/css/font-awesome.min.css';
 import './css/index.css';
+import './css/aboutme.css';
 import './css/nav.css';
 import './css/animations.css';
 import './css/projects.css';

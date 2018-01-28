@@ -1,6 +1,5 @@
 import React from "react";
 import jQuery from "jquery";
-import SocialIcons from './socialIcons.js';
 
 class Form extends React.Component {
     sendEmail() {
@@ -42,9 +41,6 @@ class Form extends React.Component {
                     <h2><em>Thanks</em> for contacting!
                     I will get back to you soon!</h2>
                 </div>
-                <p>
-                    Connect with me on linked in - <SocialIcons />
-                </p>
             </section>
         );
     }

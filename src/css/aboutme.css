@@ -1,0 +1,28 @@
+.img-thumbnail {
+    width: 200px;
+}
+.picture-container {
+    position: relative;
+}
+.picture-container:hover img {
+    z-index: -1;
+}
+.layer {
+    display: none;
+}
+.picture-container:hover .layer {
+    width: 200px;
+    height: 100%;
+    position: absolute;
+    left: 15px;
+    top: 0px;
+    display: inline-block;
+    z-index: 1;
+    color: white;
+    background: rgba(100,100, 100, 0.65);
+    padding: 150px 100px;
+}
+.socialicons a {
+    font-size: 30px;
+    color: white
+}
