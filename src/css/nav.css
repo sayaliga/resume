@@ -14,11 +14,8 @@ li {
     transition: background-color 0s, font-size 1s;
     transition-duration: 1s;
 }
-.container-fluid .navbar-nav a:hover, .container-fluid .navbar-nav a:focus {
+.nav-container .navbar-nav a:hover, .nav-container .navbar-nav a:focus {
     font-size: 30px;
     background-color: transparent;
     color: #E8E8E8;
-}
-.socialicons {
-    margin-right: 50px;
 }

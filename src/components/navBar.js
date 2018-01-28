@@ -11,7 +11,7 @@ let baseUrl = '/resume';
 let navBar = () => {
     return (
         <BrowserRouter>
-            <div className="container-fluid">
+            <div className="nav-container">
                 <ul className="nav navbar-nav">
                     <li><Link to={baseUrl}>About Me</Link></li>
                     <li><Link to={`${baseUrl}/eduqualification`}>Education</Link></li>
